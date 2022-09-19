@@ -17,6 +17,7 @@ public class LoginTests extends BaseTest{
 		LoginPage loginpage=new LoginPage(driver);
 		loginpage.doLogin(ReadFile.ReadFileData(configFile).getProperty("username"), ReadFile.ReadFileData(configFile).getProperty("password"));
 		Assert.assertTrue(true);
+                // This is from Tech robots
 		
 		
 	}
